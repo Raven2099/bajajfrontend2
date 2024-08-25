@@ -37,7 +37,7 @@ const BfhlForm = () => {
     }
 
     try {
-      const backendUrl = 'https://bajaj-backend-ivory.vercel.appbfhl';
+      const backendUrl = 'https://bajaj-backend-ivory.vercel.app/';
 // Replace with your backend URL
 
       const res = await axios.post(backendUrl, JSON.parse(jsonInput));
